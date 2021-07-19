@@ -1,0 +1,51 @@
+.a {
+    display: inline; /* the default for p */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;  
+    background-color: yellow; 
+    margin: 10px
+  }
+  
+.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+    margin: 10px
+  }
+  
+.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+    margin: 10px
+  }
+
+  .position {
+    position: fixed;
+    top: 0%;
+  }
+  .position_rel1 {
+    position: relative;
+    left: -30px;
+  }
+  .position_rel {
+    position: relative;
+    left: 5px;
+  }
+
+  h2 {
+    margin-top: 10%;
+  }
+
+  .hi{
+    background-color: aquamarine;
+    height: 300px;
+  }
